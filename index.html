@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>INCONFESS</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/@supabase/supabase-js@2"></script>
+</head>
+<body>
+
+<div class="card">
+  <h1>INCONFESS</h1>
+  <p class="slogan">Dis ce que tu gardes en toi.</p>
+
+  <input type="text" id="pseudo" placeholder="Pseudo (inscription)">
+  <input type="email" id="email" placeholder="Email">
+  <input type="password" id="password" placeholder="Mot de passe">
+
+  <button onclick="signUp()">S’inscrire</button>
+  <button onclick="signIn()">Se connecter</button>
+
+  <p id="message"></p>
+</div>
+
+<script src="auth.js"></script>
+</body>
+</html>
